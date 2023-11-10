@@ -6,7 +6,7 @@
   --color_white: #ffffff;
   --color-gray: #cacbca;
   --color-blue: #35b6f6;
-  --color-orange: rgb(235, 128, 14);
+  --color-orange: #F37709;
 
   --border-regular: 1px solid var(--color-gray);
 }
@@ -163,7 +163,7 @@ img {
 }
 
 .navbar_logo_span {
-  color: var(--color-blue);
+  color:var(--color-orange)
 }
 
 .navbar_links {
@@ -515,7 +515,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 5rem;
-  background-color: var(--color-white);
+  background-color: var(--color_white);
   box-shadow: 0.125rem 0.125rem 5rem rgba(227, 224, 222, 0.5);
   padding: 5rem;
   border-radius: 10px;
